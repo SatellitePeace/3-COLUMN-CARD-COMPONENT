@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  hsl(0, 0%, 95%);
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+}
+.section-center{
+    height: 100%;
+    width: 100%;
+    max-width: 20rem;
+}
+.car{
+    padding: 5rem;
+}
+.car h1{
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+.car p{
+    line-height: 1.5rem;
+    font-size: 15px;
+    padding-bottom: 1.5rem;
+}
+.btn{
+    padding: 0.6rem 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: transparent;
+    transition: 1s;
+}
+.btn:hover{
+    background: #000;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.car-one{
+  background: hsl(31, 77%, 52%); 
+  color:hsl(0, 0%, 95%) ; 
+  border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.orange{
+    color: hsl(31, 77%, 52%);
+}
+.car-two{
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.green{
+    color: hsl(184, 100%, 22%);
+}
+.car-three{
+    background:  hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.blue{
+    color: hsl(179, 100%, 13%);
+}
+ .attribution {
+        font-size: 13px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(31, 77%, 52%)
+      }
+@media screen and (min-width:950px) {
+  .section-center{
+      display: grid;
+      max-width: 70rem;
+      grid-template-columns: repeat(3, 1fr);
+  }  
+  .car-one{
+       border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+  .car-three{
+      border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 0;
+  }
+}
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
